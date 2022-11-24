@@ -10,12 +10,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        lemondeliver: ["LeMondeLivre"],
-        opensans: ["OpenSans"],
-      },
+    fontFamily: {
+      lemondeliver: ["LeMondeLivre", "sans-serif"],
+      opensans: ["OpenSans", "serif"],
     },
+    extend: {},
   },
   plugins: [],
 };

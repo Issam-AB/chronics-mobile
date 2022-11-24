@@ -35,6 +35,15 @@
 	src: local("OpenSans"),
 		url("../fonts/OpenSans-Bold.ttf") format("ttf");
 }
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities  {
+	.margin-social {
+	  margin-top: 1.8rem !important;
+	}
+}
